@@ -28,6 +28,7 @@ The Synchronous FIFO consists of the following components:
 ## Output 
 ### Waveform 
 <img width="939" height="243" alt="image" src="https://github.com/user-attachments/assets/819588d0-870b-48d9-96d2-02d19b753d86" />
+
 ### Simulation Terminal
 <img width="429" height="182" alt="image" src="https://github.com/user-attachments/assets/9929cf86-af75-448c-b975-fdc2f916f9ff" />
 
