@@ -25,31 +25,9 @@ The Synchronous FIFO consists of the following components:
 - **Read Operation** → Data is read from the FIFO when the read enable signal is active.
 - The write pointer increments after every write, and the read pointer increments after every read.
 
-## 📂 Project Structure
+## Output 
+### Waveform 
+<img width="939" height="243" alt="image" src="https://github.com/user-attachments/assets/819588d0-870b-48d9-96d2-02d19b753d86" />
+### Simulation Terminal
+<img width="429" height="182" alt="image" src="https://github.com/user-attachments/assets/9929cf86-af75-448c-b975-fdc2f916f9ff" />
 
-```
-.
-├── dut.v        # Synchronous FIFO design module
-├── tb.v         # Testbench for simulation
-├── README.md    # Project documentation
-```
-
-## ▶️ Simulation
-The FIFO design can be simulated using standard **Verilog simulation tools**, such as:
-
-- ModelSim
-- Vivado Simulator
-- Icarus Verilog
-
-Run the testbench to observe **write, read, full, and empty conditions**.
-
-## 🚀 Applications
-Synchronous FIFOs are commonly used in:
-
-- FPGA data buffering
-- Digital signal processing systems
-- Communication interfaces
-- Processor-to-peripheral data transfer
-
-## 👨‍💻 Author
-Avronil
