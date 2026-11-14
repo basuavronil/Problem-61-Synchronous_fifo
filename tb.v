@@ -2,7 +2,7 @@ module tb();
   reg clk, rst, wr_en, rd_en;      
   reg [7:0] d_in;
   wire [7:0] d_out;
-  wire full, empty;   
+  wire full, empty;       
   sync dut (.clk(clk), .rst(rst), .wr_en(wr_en), .rd_en(rd_en), .d_in(d_in), .d_out(d_out), .empty(empty), .full(full));
   initial begin    
     clk = 1'd0;
