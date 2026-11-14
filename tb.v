@@ -7,7 +7,7 @@ module tb();
   initial begin    
     clk = 1'd0;
     forever #5 clk = ~clk;   
-  end
+  end    
   initial begin
     rst = 1'd0;
     wr_en = 1'd0;
