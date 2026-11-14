@@ -4,7 +4,7 @@ module tb();
   wire [7:0] d_out;
   wire full, empty;
   sync dut (.clk(clk), .rst(rst), .wr_en(wr_en), .rd_en(rd_en), .d_in(d_in), .d_out(d_out), .empty(empty), .full(full));
-  initial begin
+  initial begin    
     clk = 1'd0;
     forever #5 clk = ~clk;
   end
