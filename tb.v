@@ -1,5 +1,5 @@
 module tb();
-  reg clk, rst, wr_en, rd_en;
+  reg clk, rst, wr_en, rd_en;   
   reg [7:0] d_in;
   wire [7:0] d_out;
   wire full, empty;   
