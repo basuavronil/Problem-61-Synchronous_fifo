@@ -6,7 +6,7 @@ module tb();
   sync dut (.clk(clk), .rst(rst), .wr_en(wr_en), .rd_en(rd_en), .d_in(d_in), .d_out(d_out), .empty(empty), .full(full));
   initial begin    
     clk = 1'd0;
-    forever #5 clk = ~clk;
+    forever #5 clk = ~clk;   
   end
   initial begin
     rst = 1'd0;
